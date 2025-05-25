@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StartupIdea</string>
+    <string name="home">Home</string>
+    <string name="add_idea">Add Idea</string>
+    <string name="profile">Profile</string>
+    <string name="search_hint">Search for startups, industries...</string>
+    <string name="trending">Trending</string>
+    <string name="recently_added">Recently Added</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.StartupIdea" parent="android:Theme.Material.Light.NoActionBar" />
+    
+    <!-- Tema untuk splash screen kustom -->
+    <style name="Theme.StartupIdea.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_startupidea</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.StartupIdea</item>
+    </style>
+</resources>
