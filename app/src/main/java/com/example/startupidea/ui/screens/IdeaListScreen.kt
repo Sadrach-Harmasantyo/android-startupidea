@@ -1,4 +1,4 @@
-package com.example.startupidea.ui
+package com.example.startupidea.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -24,10 +24,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.zIndex
-import com.example.startupidea.model.StartupIdea
+import com.example.startupidea.data.model.StartupIdea
 import com.example.startupidea.ui.components.IdeaCard
 import com.example.startupidea.ui.components.SearchBar
-import com.example.startupidea.viewmodel.IdeaViewModel
+import com.example.startupidea.ui.viewmodel.IdeaViewModel
 
 @Composable
 fun IdeaListScreen(

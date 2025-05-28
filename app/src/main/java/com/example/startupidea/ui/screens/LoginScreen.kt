@@ -1,4 +1,4 @@
-package com.example.startupidea.ui
+package com.example.startupidea.ui.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -17,16 +17,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.startupidea.R
-import com.example.startupidea.viewmodel.AuthViewModel
-import com.example.startupidea.data.AuthResult
+import com.example.startupidea.ui.viewmodel.AuthViewModel
+import com.example.startupidea.data.model.AuthResult
 import kotlinx.coroutines.launch
-
-// Definisi warna tema
-//val OrangeMain = Color(0xFFFF9800)
-//val OrangeDark = Color(0xFFF57C00)
-//val BlackMain = Color(0xFF212121)
-//val BlackLight = Color(0xFF424242)
-//val GrayLight = Color(0xFFE0E0E0)
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

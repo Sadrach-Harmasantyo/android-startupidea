@@ -1,6 +1,6 @@
 package com.example.startupidea
 
-import com.example.startupidea.ui.IdeaFormScreen
+import com.example.startupidea.ui.screens.IdeaFormScreen
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -25,14 +25,14 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.startupidea.model.StartupIdea
-import com.example.startupidea.ui.IdeaDetailScreen
-import com.example.startupidea.ui.IdeaListScreen
-import com.example.startupidea.ui.LoginScreen
-import com.example.startupidea.ui.ProfileScreen
+import com.example.startupidea.data.model.StartupIdea
+import com.example.startupidea.ui.screens.IdeaDetailScreen
+import com.example.startupidea.ui.screens.IdeaListScreen
+import com.example.startupidea.ui.screens.LoginScreen
+import com.example.startupidea.ui.screens.ProfileScreen
 //import com.example.startupidea.uii.SplashScreen
-import com.example.startupidea.viewmodel.AuthViewModel
-import com.example.startupidea.viewmodel.IdeaViewModel
+import com.example.startupidea.ui.viewmodel.AuthViewModel
+import com.example.startupidea.ui.viewmodel.IdeaViewModel
 
 class MainActivity : ComponentActivity() {
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")

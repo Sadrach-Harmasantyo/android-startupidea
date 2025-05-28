@@ -1,9 +1,9 @@
-package com.example.startupidea.viewmodel
+package com.example.startupidea.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.startupidea.data.AuthResult
-import com.example.startupidea.repository.AuthRepository
+import com.example.startupidea.data.model.AuthResult
+import com.example.startupidea.data.repository.AuthRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

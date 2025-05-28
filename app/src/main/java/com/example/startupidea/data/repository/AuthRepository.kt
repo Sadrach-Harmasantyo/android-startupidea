@@ -1,7 +1,6 @@
-package com.example.startupidea.repository
+package com.example.startupidea.data.repository
 
-import com.example.startupidea.data.SupabaseService
-import com.example.startupidea.data.AuthResult
+import com.example.startupidea.data.model.AuthResult
 import kotlinx.coroutines.flow.StateFlow
 
 class AuthRepository {

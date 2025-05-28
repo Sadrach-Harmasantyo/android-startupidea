@@ -1,4 +1,4 @@
-package com.example.startupidea.data
+package com.example.startupidea.data.model
 
 sealed class AuthResult {
     object Success : AuthResult()

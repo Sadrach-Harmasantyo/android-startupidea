@@ -28,7 +28,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
-import com.example.startupidea.model.StartupIdea
+import com.example.startupidea.data.model.StartupIdea
 
 @Composable
 fun IdeaCard(

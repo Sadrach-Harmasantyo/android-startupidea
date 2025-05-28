@@ -1,4 +1,4 @@
-package com.example.startupidea.ui
+package com.example.startupidea.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -14,11 +14,11 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.startupidea.R
-import com.example.startupidea.data.SupabaseService
-import com.example.startupidea.model.StartupIdea
+import com.example.startupidea.data.repository.SupabaseService
+import com.example.startupidea.data.model.StartupIdea
 import com.example.startupidea.ui.components.IdeaCard
-import com.example.startupidea.viewmodel.AuthViewModel
-import com.example.startupidea.viewmodel.IdeaViewModel
+import com.example.startupidea.ui.viewmodel.AuthViewModel
+import com.example.startupidea.ui.viewmodel.IdeaViewModel
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

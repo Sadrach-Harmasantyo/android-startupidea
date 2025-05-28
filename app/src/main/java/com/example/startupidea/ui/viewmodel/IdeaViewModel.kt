@@ -1,9 +1,9 @@
-package com.example.startupidea.viewmodel
+package com.example.startupidea.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.startupidea.model.StartupIdea
-import com.example.startupidea.repository.IdeaRepository
+import com.example.startupidea.data.model.StartupIdea
+import com.example.startupidea.data.repository.IdeaRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

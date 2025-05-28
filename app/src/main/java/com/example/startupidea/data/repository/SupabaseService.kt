@@ -1,15 +1,12 @@
-package com.example.startupidea.data
+package com.example.startupidea.data.repository
 
-import android.net.http.HttpResponseCache.install
 import android.util.Log
-import com.example.startupidea.model.StartupIdea
-import io.github.jan.supabase.SupabaseClient
+import com.example.startupidea.data.model.StartupIdea
 import io.github.jan.supabase.postgrest.postgrest
 import io.github.jan.supabase.createSupabaseClient
 import io.github.jan.supabase.gotrue.GoTrue
 import io.github.jan.supabase.gotrue.gotrue
 import io.github.jan.supabase.gotrue.providers.builtin.Email
-import io.github.jan.supabase.postgrest.query.Order
 import io.github.jan.supabase.storage.Storage
 import io.github.jan.supabase.storage.storage
 import kotlinx.coroutines.Dispatchers

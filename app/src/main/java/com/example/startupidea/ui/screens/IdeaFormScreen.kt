@@ -1,4 +1,4 @@
-package com.example.startupidea.ui
+package com.example.startupidea.ui.screens
 
 import android.content.Context
 import android.net.Uri
@@ -13,7 +13,6 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.*
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
@@ -38,25 +37,18 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.core.content.FileProvider
 import coil.compose.rememberAsyncImagePainter
-import com.example.startupidea.data.SupabaseService
-import com.example.startupidea.model.StartupIdea
-import com.example.startupidea.viewmodel.IdeaViewModel
+import com.example.startupidea.data.repository.SupabaseService
+import com.example.startupidea.data.model.StartupIdea
+import com.example.startupidea.ui.viewmodel.IdeaViewModel
 import kotlinx.coroutines.launch
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*
 
-// Definisi warna tema
-//val OrangeMain = Color(0xFFFF9800)
-//val OrangeDark = Color(0xFFF57C00)
-//val BlackMain = Color(0xFF212121)
-//val BlackLight = Color(0xFF424242)
-//val GrayLight = Color(0xFFE0E0E0)
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun IdeaFormScreen(
-    ideaViewModel: IdeaViewModel, 
+    ideaViewModel: IdeaViewModel,
     onSubmitted: () -> Unit,
     ideaToEdit: StartupIdea? = null // Parameter baru untuk ide yang akan diedit
 ) {
